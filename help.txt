@@ -1,0 +1,12 @@
+babel-cli --save  to compile es6 js to es5 or earlier versions
+babel-preset-es2015 --save  to compile es6 to es5
+
+ to run node_modules/.bin/babel-node index.js
+
+
+// if use nodemon
+"main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js", // else node index.js
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
